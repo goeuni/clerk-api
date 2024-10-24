@@ -54,7 +54,7 @@ export default function Header() {
                 Dashboard-Server
               </Link>
               <Link
-                href="dashboard-client"
+                href="/dashboard-client"
                 className="text-gray-300 hover:text-white mr-4"
               >
                 Dashboard-Client
