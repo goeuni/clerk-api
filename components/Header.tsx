@@ -53,7 +53,10 @@ export default function Header() {
               >
                 Dashboard-Server
               </Link>
-              <Link href="text-gray-300 hover:text-white mr-4">
+              <Link
+                href="dashboard-client"
+                className="text-gray-300 hover:text-white mr-4"
+              >
                 Dashboard-Client
               </Link>
               <div className="text-gray-300 hover:text-white mr-4">

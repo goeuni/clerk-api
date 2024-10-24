@@ -2,7 +2,8 @@
 import { useAuth, useUser } from "@clerk/nextjs";
 
 export default function DashboardClient() {
-  const { isLoaded: isLoadedAuth, userId, sessionId } = useAuth();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { isLoaded: isLoadedAuth, userId, sessionId, getToken } = useAuth();
   const { isLoaded: isLoadedUser, isSignedIn, user } = useUser();
 
   if (!isLoadedAuth || !userId) {
